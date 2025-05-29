@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+@theme{
+    --color-primary: #150303;
+    --color-secondary: #fb0000;
+    --color-tertiary: #675e5e;
+    --color-icon: rgba (255, 255, 255, 0.06);
+    --font-chivo: "Chivo", sans-serif;
+}
+
+#root {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
